@@ -72,3 +72,6 @@ ipt2 %>%
 ipt3 <- ipt2 %>%
   dplyr::mutate(new = "new") %>%
   dplyr::mutate(old = "old")
+
+# devtools::session_info()
+sessionInfo()
