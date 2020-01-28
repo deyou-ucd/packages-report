@@ -64,3 +64,6 @@ ipt2 %>%
   mutate(github = grepl("github", URL)) %>%
   count(github) %>%
   mutate(prop = n / sum(n))
+
+ipt3 <- ipt2 %>%
+  dplyr::mutate(new = "new")
