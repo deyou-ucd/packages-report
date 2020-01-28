@@ -27,7 +27,7 @@ pkgfew <- pkg %>%
 ## idea: try using here::here() to create the file path
 
 library("here")
-write_csv(pkgfew, here("data", "installed-packages.csv"))
+#write_csv(pkgfew, here("data", "installed-packages.csv"))
 
 ## YES overwrite the file that is there now (or delete it first)
 ## that's a old result from me (Jenny)
