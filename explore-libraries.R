@@ -70,4 +70,5 @@ ipt2 %>%
   mutate(prop = n / sum(n))
 
 ipt3 <- ipt2 %>%
-  dplyr::mutate(new = "new")
+  dplyr::mutate(new = "new") %>%
+  dplyr::mutate(old = "old")
